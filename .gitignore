@@ -1,0 +1,58 @@
+### Flutter ###
+.dart_tool/
+.flutter-plugins
+.flutter-plugin-dependencies
+.metadata
+
+### OS ###
+*.swp
+*.swo
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Logs and temporary files ###
+*.log
+tmp/
+*.tmp
+
+### Build output ###
+build/
+android/app/build/
+ios/Runner.xcodeproj/project.pbxproj.lock
+
+### Packages ###
+.packages
+packages-lock.json
+
+### IDE ###
+.idea/
+.vscode/
+*.iml
+*.iws
+
+### Generated files ###
+*.g.dart
+*.freezed.dart
+*.config.dart
+
+### Credentials ###
+*.env
+
+# Remove the temporary .dart_tool directory
+rm -rf .dart_tool
+
+# Remove the build directory
+rm -rf build
+
+# Remove the .packages file
+rm .packages
+
+# Remove the pubspec.lock file
+rm pubspec.lock
+
+# Remove the ios/Podfile.lock file
+rm ios/Podfile.lock
+
+# Remove the android/app/build directory
+rm -rf android/app/build
